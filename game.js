@@ -8,7 +8,7 @@ const gameBoard = document.getElementById('game-board');
 function main(currentTime) {
   if (gameOver) {
     if (confirm('You lost.')) {
-      window.location = '/snake/'
+      window.location.href = 'https://jordiciurana16.github.io/snake/';
     }
     return
   }
